@@ -1,9 +1,0 @@
-{
-	"name": "Reiniciar",
-	"plugin-id": "Button",
-	"sid": 923000826467849,
-	"isGlobal": false,
-	"editorNewInstanceIsReplica": true,
-	"instanceVariables": [],
-	"behaviorTypes": []
-}
