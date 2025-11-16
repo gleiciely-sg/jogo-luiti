@@ -1,0 +1,64 @@
+{
+	"name": "Fim de Fase",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Reiniciar",
+					"sid": 564324876991794
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 654443366963760,
+					"parameters": {
+						"layout": "Jogo"
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Áudio",
+					"sid": 541107542586371,
+					"parameters": {
+						"tag": "\"vitória\""
+					}
+				}
+			],
+			"sid": 554384097718606
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Início",
+					"sid": 305023308571133
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 119332481070402,
+					"parameters": {
+						"layout": "Inicio"
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Áudio",
+					"sid": 949638103910550,
+					"parameters": {
+						"tag": "\"vitória\""
+					}
+				}
+			],
+			"sid": 784625173639131
+		}
+	],
+	"sid": 952746687741147
+}

@@ -1,0 +1,70 @@
+{
+	"name": "game over",
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [],
+			"actions": [],
+			"sid": 223802717108968
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Reiniciar",
+					"sid": 484229338721639
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 446649881286713,
+					"parameters": {
+						"layout": "Jogo"
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Áudio",
+					"sid": 866746742651056,
+					"parameters": {
+						"tag": "\"game over\""
+					}
+				}
+			],
+			"sid": 913096105047480
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-clicked",
+					"objectClass": "Início",
+					"sid": 512542413609483
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 705525703171534,
+					"parameters": {
+						"layout": "Inicio"
+					}
+				},
+				{
+					"id": "stop",
+					"objectClass": "Áudio",
+					"sid": 342239302576834,
+					"parameters": {
+						"tag": "\"game over\""
+					}
+				}
+			],
+			"sid": 994026656548207
+		}
+	],
+	"sid": 993089468880215
+}

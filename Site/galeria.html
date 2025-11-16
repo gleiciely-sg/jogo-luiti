@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luiti's Glow - GALERIAS</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="main-nav dark-bg">
+        <a href="index.html"><img src="img/logo.png" alt="Luiti's Glow Logo Pequeno" class="nav-logo"></a>
+        <div class="nav-links"> 
+            <a href="index.html" class="pixel-font">INÍCIO</a>
+            <a href="sobre.html" class="pixel-font">SOBRE</a>
+            <a href="galeria.html" class="pixel-font">GALERIA</a>
+            <a href="contato.html" class="pixel-font">CONTATO</a>
+        </div>
+        <a href="#download" class="btn-jogar pixel-font">JOGAR</a>
+    </nav>
+
+    <section class="galeria-section dark-bg main-content-padding" id="galeria">
+        <h2 class="pixel-font">📸 Galerias de Fotos</h2>
+        
+        <div class="galeria-grid">
+            <img src="img/inicio.jpg" alt="Tela de Início Luiti's Glow" data-large="inicio.jpg" loading="lazy">
+            <img src="img/jogo.jpg" alt="Tela de Jogo Luiti's Glow" data-large="jogo.jpg" loading="lazy">
+            <img src="img/vitoria.jpg" alt="Tela de Vitória Luiti's Glow" data-large="vitoria.jpg" loading="lazy">
+            <img src="img/gameover.jpg" alt="Tela de Game Over Luiti's Glow" data-large="gameover.jpg" loading="lazy">
+        </div>
+    </section>
+
+    <div id="lightboxOverlay" class="lightbox-overlay">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightboxImage" src="" alt="">
+    </div>
+
+    <footer class="dark-bg" id="contato-footer">
+        <p>© 2025 Luiti's Glow. Todos os direitos reservados.</p>
+        <p>Contato: luitisglow@gmail.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

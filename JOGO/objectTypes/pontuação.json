@@ -1,0 +1,16 @@
+{
+	"name": "pontuação",
+	"plugin-id": "Text",
+	"sid": 939226293203453,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Anchor",
+			"name": "Âncora",
+			"sid": 402228794586505
+		}
+	],
+	"effectTypes": []
+}
