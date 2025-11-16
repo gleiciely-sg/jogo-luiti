@@ -13,3 +13,6 @@ poderá ser criado novas fases após as analises (correções) e a possibilidade
 Os personagens e o cenário do jogo foram desenhados a mão, sendo uma construção do zero, apenas as imagens de inicio, game over e vitória foi com o auxilio de uma ferramenta para sua construção.
 
 Espero que gostem!!!
+
+
+link: https://gleiciely-sg.github.io/jogo-luiti/
